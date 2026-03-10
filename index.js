@@ -1,8 +1,9 @@
-import { registerRootComponent } from 'expo';
+import { Aula01 } from "./src/Aula01";
+import { Aula02 } from "./src/Aula02";
 
-import App from './App';
-
-// registerRootComponent calls AppRegistry.registerComponent('main', () => App);
-// It also ensures that whether you load the app in Expo Go or in a native build,
-// the environment is set up appropriately
-registerRootComponent(App);
+export default function App (){
+    return(
+        //<Aula01/>
+        <Aula02/>
+    )
+}
